@@ -23,6 +23,8 @@ public class Csv2Sql {
         final String tableName = determineTableName(args);
         final Integer idColumnIndex = determineIdColumnIndex(args);
 
+        final List<Integer> foreignKeyColumnIndexes = determineForeignKeyColumnIndexes(args);
+
         final List<String> columnTypes = determineColumnTypes(args);
 
         Reader reader = null;
@@ -37,13 +39,18 @@ public class Csv2Sql {
             final String columnList = assembleColumnList(csvParser);
             final String insertStatementPrefix = assembleInsertStatementPrefix(tableName, columnList);
 
-            assembleInsertStatements(csvParser, writer, insertStatementPrefix, idColumnIndex, columnTypes);
+            assembleInsertStatements(csvParser, writer, insertStatementPrefix, idColumnIndex, columnTypes, foreignKeyColumnIndexes);
         } catch (IOException e) {
             throw new UncheckedIOException(e);
         } finally {
             closeCsvInputFile(reader);
             closeSqlOutputFile(writer);
         }
+    }
+
+    private static List<Integer> determineForeignKeyColumnIndexes(String[] args) {
+        final String foreignKeyColumnIndexes = args[3];
+        return Arrays.stream(foreignKeyColumnIndexes.split(",")).map(Integer::parseInt).collect(Collectors.toList());
     }
 
     private static void closeSqlOutputFile(Writer writer) {
@@ -70,11 +77,11 @@ public class Csv2Sql {
         return new BufferedReader(new FileReader(csvFileName));
     }
 
-    private static void assembleInsertStatements(final CSVParser csvParser, final Writer writer, final String insertStatementPrefix, final Integer idColumnIndex, final List<String> columnTypes) throws IOException {
+    private static void assembleInsertStatements(final CSVParser csvParser, final Writer writer, final String insertStatementPrefix, final Integer idColumnIndex, final List<String> columnTypes, List<Integer> foreignKeyColumnIndexes) throws IOException {
         for (CSVRecord csvRecord : csvParser) {
             StringBuilder insertStatement = initializeInsertStatement(csvRecord, insertStatementPrefix, idColumnIndex);
 
-            insertStatement = appendValuesToInsertStatement(columnTypes, csvRecord, insertStatement);
+            insertStatement = appendValuesToInsertStatement(csvRecord, insertStatement, columnTypes, foreignKeyColumnIndexes);
 
             writeInsertStatementToFile(insertStatement, writer);
         }
@@ -84,25 +91,25 @@ public class Csv2Sql {
         writer.write(insertStatement.toString());
     }
 
-    private static StringBuilder appendValuesToInsertStatement(List<String> columnTypes, CSVRecord csvRecord, StringBuilder insertStatement) {
-        int i = 0;
-        for (String value : csvRecord) {
-            insertStatement = appendValueToStatement(columnTypes, csvRecord, insertStatement, i, value);
-
-            i++;
+    private static StringBuilder appendValuesToInsertStatement(final CSVRecord csvRecord, StringBuilder insertStatement, final List<String> columnTypes, final List<Integer> foreignKeyColumnIndexes) {
+        for (int i = 0; i < csvRecord.size(); i++) {
+            insertStatement = appendValueToStatement(csvRecord, insertStatement, i, columnTypes, foreignKeyColumnIndexes);
         }
 
         insertStatement.append(");\n");
+
         return insertStatement;
     }
 
-    private static StringBuilder appendValueToStatement(final List<String> columnTypes, final CSVRecord csvRecord, final StringBuilder insertStatement, final int i, final String value) {
+    private static StringBuilder appendValueToStatement(final CSVRecord csvRecord, final StringBuilder insertStatement, final int i, final List<String> columnTypes, List<Integer> foreignKeyColumnIndexes) {
+        final String value = determineValue(csvRecord, i, foreignKeyColumnIndexes);
+
         if (StringUtils.isBlank(value)) {
             insertStatement.append("NULL");
         } else {
             switch (columnTypes.get(i)) {
                 case "t":
-                    insertStatement.append("'").append(value).append("'");
+                    insertStatement.append("'").append(value.replace("'", "''")).append("'");
                     break;
                 case "i":
                     insertStatement.append(value);
@@ -119,11 +126,27 @@ public class Csv2Sql {
         return insertStatement;
     }
 
+    private static String determineValue(CSVRecord csvRecord, int i, List<Integer> foreignKeyColumnIndexes) {
+        return isForeignKeyColumn(i, foreignKeyColumnIndexes) ? convertIdentifierToHex(csvRecord.get(i)) : csvRecord.get(i);
+    }
+
+    private static boolean isForeignKeyColumn(int i, List<Integer> foreignKeyColumnIndexes) {
+        return foreignKeyColumnIndexes.contains(i);
+    }
+
     private static StringBuilder initializeInsertStatement(final CSVRecord csvRecord, final String insertStatementPrefix, final Integer idColumnIndex) {
         StringBuilder insertStatement = new StringBuilder(insertStatementPrefix).append("'");
-        insertStatement.append(String.format("%x", new BigInteger(1, csvRecord.get(idColumnIndex).getBytes())));
+        insertStatement.append(convertIdentifierToHex(csvRecord.get(idColumnIndex)));
         insertStatement.append("', ");
         return insertStatement;
+    }
+
+    private static String convertIdentifierToHex(final String id) {
+        if (StringUtils.isBlank(id)) {
+            return null;
+        } else {
+            return String.format("%x", new BigInteger(1, id.getBytes()));
+        }
     }
 
     private static String assembleInsertStatementPrefix(String tableName, String columnList) {
@@ -136,8 +159,8 @@ public class Csv2Sql {
     }
 
     private static List<String> determineColumnTypes(String[] args) {
-        final String columnTypesStr = args[3];
-        return Arrays.stream(columnTypesStr.split(",")).collect(Collectors.toList());
+        final String columnTypes = args[4];
+        return Arrays.stream(columnTypes.split(",")).collect(Collectors.toList());
     }
 
     private static int determineIdColumnIndex(String[] args) {
@@ -158,8 +181,8 @@ public class Csv2Sql {
         try {
             Files.delete(new File(sqlFileName).toPath());
         } catch (NoSuchFileException e) {
-            ;
         }
+
         return new BufferedWriter(new FileWriter(sqlFileName));
     }
 
