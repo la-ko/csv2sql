@@ -1,0 +1,18 @@
+group 'de.lkor.reference'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'maven'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.apache.commons:commons-csv:1.4'
+    compile 'org.apache.commons:commons-lang3:3.5'
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
