@@ -1,0 +1,269 @@
+Common Name;Formal Name;Type;Sub Type;Sovereignty;Capital;ITU T Telephone Code;ISO3166 1 Alpha 2 Code;ISO3166 1 Alpha 3 Code;ISO3166 1 Numeric Code;IANA Country Code Top Level Domain
+Afghanistan;Islamic State of Afghanistan;Independent State;;;Kabul;93;AF;AFG;4;.af
+Albania;Republic of Albania;Independent State;;;Tirana;355;AL;ALB;8;.al
+Algeria;People's Democratic Republic of Algeria;Independent State;;;Algiers;213;DZ;DZA;12;.dz
+Andorra;Principality of Andorra;Independent State;;;Andorra la Vella;376;AD;AND;20;.ad
+Angola;Republic of Angola;Independent State;;;Luanda;244;AO;AGO;24;.ao
+Antigua and Barbuda;;Independent State;;;Saint John's;-267;AG;ATG;28;.ag
+Argentina;Argentine Republic;Independent State;;;Buenos Aires;54;AR;ARG;32;.ar
+Armenia;Republic of Armenia;Independent State;;;Yerevan;374;AM;ARM;51;.am
+Australia;Commonwealth of Australia;Independent State;;;Canberra;61;AU;AUS;36;.au
+Austria;Republic of Austria;Independent State;;;Vienna;43;AT;AUT;40;.at
+Azerbaijan;Republic of Azerbaijan;Independent State;;;Baku;994;AZ;AZE;31;.az
+Bahamas, The;Commonwealth of The Bahamas;Independent State;;;Nassau;-241;BS;BHS;44;.bs
+Bahrain;Kingdom of Bahrain;Independent State;;;Manama;973;BH;BHR;48;.bh
+Bangladesh;People's Republic of Bangladesh;Independent State;;;Dhaka;880;BD;BGD;50;.bd
+Barbados;;Independent State;;;Bridgetown;-245;BB;BRB;52;.bb
+Belarus;Republic of Belarus;Independent State;;;Minsk;375;BY;BLR;112;.by
+Belgium;Kingdom of Belgium;Independent State;;;Brussels;32;BE;BEL;56;.be
+Belize;;Independent State;;;Belmopan;501;BZ;BLZ;84;.bz
+Benin;Republic of Benin;Independent State;;;Porto-Novo;229;BJ;BEN;204;.bj
+Bhutan;Kingdom of Bhutan;Independent State;;;Thimphu;975;BT;BTN;64;.bt
+Bolivia;Republic of Bolivia;Independent State;;;La Paz (administrative/legislative) and Sucre (judical);591;BO;BOL;68;.bo
+Bosnia and Herzegovina;;Independent State;;;Sarajevo;387;BA;BIH;70;.ba
+Botswana;Republic of Botswana;Independent State;;;Gaborone;267;BW;BWA;72;.bw
+Brazil;Federative Republic of Brazil;Independent State;;;Brasilia;55;BR;BRA;76;.br
+Brunei;Negara Brunei Darussalam;Independent State;;;Bandar Seri Begawan;673;BN;BRN;96;.bn
+Bulgaria;Republic of Bulgaria;Independent State;;;Sofia;359;BG;BGR;100;.bg
+Burkina Faso;;Independent State;;;Ouagadougou;226;BF;BFA;854;.bf
+Burundi;Republic of Burundi;Independent State;;;Bujumbura;257;BI;BDI;108;.bi
+Cambodia;Kingdom of Cambodia;Independent State;;;Phnom Penh;855;KH;KHM;116;.kh
+Cameroon;Republic of Cameroon;Independent State;;;Yaounde;237;CM;CMR;120;.cm
+Canada;;Independent State;;;Ottawa;1;CA;CAN;124;.ca
+Cape Verde;Republic of Cape Verde;Independent State;;;Praia;238;CV;CPV;132;.cv
+Central African Republic;;Independent State;;;Bangui;236;CF;CAF;140;.cf
+Chad;Republic of Chad;Independent State;;;N'Djamena;235;TD;TCD;148;.td
+Chile;Republic of Chile;Independent State;;;Santiago (administrative/judical) and Valparaiso (legislative);56;CL;CHL;152;.cl
+China, People's Republic of;People's Republic of China;Independent State;;;Beijing;86;CN;CHN;156;.cn
+Colombia;Republic of Colombia;Independent State;;;Bogota;57;CO;COL;170;.co
+Comoros;Union of Comoros;Independent State;;;Moroni;269;KM;COM;174;.km
+Congo, (Congo ñ Kinshasa);Democratic Republic of the Congo;Independent State;;;Kinshasa;243;CD;COD;180;.cd
+Congo, (Congo ñ Brazzaville);Republic of the Congo;Independent State;;;Brazzaville;242;CG;COG;178;.cg
+Costa Rica;Republic of Costa Rica;Independent State;;;San Jose;506;CR;CRI;188;.cr
+Cote d'Ivoire (Ivory Coast);Republic of Cote d'Ivoire;Independent State;;;Yamoussoukro;225;CI;CIV;384;.ci
+Croatia;Republic of Croatia;Independent State;;;Zagreb;385;HR;HRV;191;.hr
+Cuba;Republic of Cuba;Independent State;;;Havana;53;CU;CUB;192;.cu
+Cyprus;Republic of Cyprus;Independent State;;;Nicosia;357;CY;CYP;196;.cy
+Czech Republic;;Independent State;;;Prague;420;CZ;CZE;203;.cz
+Denmark;Kingdom of Denmark;Independent State;;;Copenhagen;45;DK;DNK;208;.dk
+Djibouti;Republic of Djibouti;Independent State;;;Djibouti;253;DJ;DJI;262;.dj
+Dominica;Commonwealth of Dominica;Independent State;;;Roseau;-766;DM;DMA;212;.dm
+Dominican Republic;;Independent State;;;Santo Domingo;+1-809 and 1-829;DO;DOM;214;.do
+Ecuador;Republic of Ecuador;Independent State;;;Quito;593;EC;ECU;218;.ec
+Egypt;Arab Republic of Egypt;Independent State;;;Cairo;20;EG;EGY;818;.eg
+El Salvador;Republic of El Salvador;Independent State;;;San Salvador;503;SV;SLV;222;.sv
+Equatorial Guinea;Republic of Equatorial Guinea;Independent State;;;Malabo;240;GQ;GNQ;226;.gq
+Eritrea;State of Eritrea;Independent State;;;Asmara;291;ER;ERI;232;.er
+Estonia;Republic of Estonia;Independent State;;;Tallinn;372;EE;EST;233;.ee
+Ethiopia;Federal Democratic Republic of Ethiopia;Independent State;;;Addis Ababa;251;ET;ETH;231;.et
+Fiji;Republic of the Fiji Islands;Independent State;;;Suva;679;FJ;FJI;242;.fj
+Finland;Republic of Finland;Independent State;;;Helsinki;358;FI;FIN;246;.fi
+France;French Republic;Independent State;;;Paris;33;FR;FRA;250;.fr
+Gabon;Gabonese Republic;Independent State;;;Libreville;241;GA;GAB;266;.ga
+Gambia, The;Republic of The Gambia;Independent State;;;Banjul;220;GM;GMB;270;.gm
+Georgia;Republic of Georgia;Independent State;;;Tbilisi;995;GE;GEO;268;.ge
+Germany;Federal Republic of Germany;Independent State;;;Berlin;49;DE;DEU;276;.de
+Ghana;Republic of Ghana;Independent State;;;Accra;233;GH;GHA;288;.gh
+Greece;Hellenic Republic;Independent State;;;Athens;30;GR;GRC;300;.gr
+Grenada;;Independent State;;;Saint George's;-472;GD;GRD;308;.gd
+Guatemala;Republic of Guatemala;Independent State;;;Guatemala;502;GT;GTM;320;.gt
+Guinea;Republic of Guinea;Independent State;;;Conakry;224;GN;GIN;324;.gn
+Guinea-Bissau;Republic of Guinea-Bissau;Independent State;;;Bissau;245;GW;GNB;624;.gw
+Guyana;Co-operative Republic of Guyana;Independent State;;;Georgetown;592;GY;GUY;328;.gy
+Haiti;Republic of Haiti;Independent State;;;Port-au-Prince;509;HT;HTI;332;.ht
+Honduras;Republic of Honduras;Independent State;;;Tegucigalpa;504;HN;HND;340;.hn
+Hungary;Republic of Hungary;Independent State;;;Budapest;36;HU;HUN;348;.hu
+Iceland;Republic of Iceland;Independent State;;;Reykjavik;354;IS;ISL;352;.is
+India;Republic of India;Independent State;;;New Delhi;91;IN;IND;356;.in
+Indonesia;Republic of Indonesia;Independent State;;;Jakarta;62;ID;IDN;360;.id
+Iran;Islamic Republic of Iran;Independent State;;;Tehran;98;IR;IRN;364;.ir
+Iraq;Republic of Iraq;Independent State;;;Baghdad;964;IQ;IRQ;368;.iq
+Ireland;;Independent State;;;Dublin;353;IE;IRL;372;.ie
+Israel;State of Israel;Independent State;;;Jerusalem;972;IL;ISR;376;.il
+Italy;Italian Republic;Independent State;;;Rome;39;IT;ITA;380;.it
+Jamaica;;Independent State;;;Kingston;-875;JM;JAM;388;.jm
+Japan;;Independent State;;;Tokyo;81;JP;JPN;392;.jp
+Jordan;Hashemite Kingdom of Jordan;Independent State;;;Amman;962;JO;JOR;400;.jo
+Kazakhstan;Republic of Kazakhstan;Independent State;;;Astana;7;KZ;KAZ;398;.kz
+Kenya;Republic of Kenya;Independent State;;;Nairobi;254;KE;KEN;404;.ke
+Kiribati;Republic of Kiribati;Independent State;;;Tarawa;686;KI;KIR;296;.ki
+Korea, North;Democratic People's Republic of Korea;Independent State;;;Pyongyang;850;KP;PRK;408;.kp
+Korea, South;Republic of Korea;Independent State;;;Seoul;82;KR;KOR;410;.kr
+Kuwait;State of Kuwait;Independent State;;;Kuwait;965;KW;KWT;414;.kw
+Kyrgyzstan;Kyrgyz Republic;Independent State;;;Bishkek;996;KG;KGZ;417;.kg
+Laos;Lao People's Democratic Republic;Independent State;;;Vientiane;856;LA;LAO;418;.la
+Latvia;Republic of Latvia;Independent State;;;Riga;371;LV;LVA;428;.lv
+Lebanon;Lebanese Republic;Independent State;;;Beirut;961;LB;LBN;422;.lb
+Lesotho;Kingdom of Lesotho;Independent State;;;Maseru;266;LS;LSO;426;.ls
+Liberia;Republic of Liberia;Independent State;;;Monrovia;231;LR;LBR;430;.lr
+Libya;Great Socialist People's Libyan Arab Jamahiriya;Independent State;;;Tripoli;218;LY;LBY;434;.ly
+Liechtenstein;Principality of Liechtenstein;Independent State;;;Vaduz;423;LI;LIE;438;.li
+Lithuania;Republic of Lithuania;Independent State;;;Vilnius;370;LT;LTU;440;.lt
+Luxembourg;Grand Duchy of Luxembourg;Independent State;;;Luxembourg;352;LU;LUX;442;.lu
+Macedonia;Republic of Macedonia;Independent State;;;Skopje;389;MK;MKD;807;.mk
+Madagascar;Republic of Madagascar;Independent State;;;Antananarivo;261;MG;MDG;450;.mg
+Malawi;Republic of Malawi;Independent State;;;Lilongwe;265;MW;MWI;454;.mw
+Malaysia;;Independent State;;;Kuala Lumpur (legislative/judical) and Putrajaya (administrative);60;MY;MYS;458;.my
+Maldives;Republic of Maldives;Independent State;;;Male;960;MV;MDV;462;.mv
+Mali;Republic of Mali;Independent State;;;Bamako;223;ML;MLI;466;.ml
+Malta;Republic of Malta;Independent State;;;Valletta;356;MT;MLT;470;.mt
+Marshall Islands;Republic of the Marshall Islands;Independent State;;;Majuro;692;MH;MHL;584;.mh
+Mauritania;Islamic Republic of Mauritania;Independent State;;;Nouakchott;222;MR;MRT;478;.mr
+Mauritius;Republic of Mauritius;Independent State;;;Port Louis;230;MU;MUS;480;.mu
+Mexico;United Mexican States;Independent State;;;Mexico;52;MX;MEX;484;.mx
+Micronesia;Federated States of Micronesia;Independent State;;;Palikir;691;FM;FSM;583;.fm
+Moldova;Republic of Moldova;Independent State;;;Chisinau;373;MD;MDA;498;.md
+Monaco;Principality of Monaco;Independent State;;;Monaco;377;MC;MCO;492;.mc
+Mongolia;;Independent State;;;Ulaanbaatar;976;MN;MNG;496;.mn
+Montenegro;Republic of Montenegro;Independent State;;;Podgorica;382;ME;MNE;499;.me and .yu
+Morocco;Kingdom of Morocco;Independent State;;;Rabat;212;MA;MAR;504;.ma
+Mozambique;Republic of Mozambique;Independent State;;;Maputo;258;MZ;MOZ;508;.mz
+Myanmar (Burma);Union of Myanmar;Independent State;;;Naypyidaw;95;MM;MMR;104;.mm
+Namibia;Republic of Namibia;Independent State;;;Windhoek;264;NA;NAM;516;.na
+Nauru;Republic of Nauru;Independent State;;;Yaren;674;NR;NRU;520;.nr
+Nepal;;Independent State;;;Kathmandu;977;NP;NPL;524;.np
+Netherlands;Kingdom of the Netherlands;Independent State;;;Amsterdam (administrative) and The Hague (legislative/judical);31;NL;NLD;528;.nl
+New Zealand;;Independent State;;;Wellington;64;NZ;NZL;554;.nz
+Nicaragua;Republic of Nicaragua;Independent State;;;Managua;505;NI;NIC;558;.ni
+Niger;Republic of Niger;Independent State;;;Niamey;227;NE;NER;562;.ne
+Nigeria;Federal Republic of Nigeria;Independent State;;;Abuja;234;NG;NGA;566;.ng
+Norway;Kingdom of Norway;Independent State;;;Oslo;47;NO;NOR;578;.no
+Oman;Sultanate of Oman;Independent State;;;Muscat;968;OM;OMN;512;.om
+Pakistan;Islamic Republic of Pakistan;Independent State;;;Islamabad;92;PK;PAK;586;.pk
+Palau;Republic of Palau;Independent State;;;Melekeok;680;PW;PLW;585;.pw
+Panama;Republic of Panama;Independent State;;;Panama;507;PA;PAN;591;.pa
+Papua New Guinea;Independent State of Papua New Guinea;Independent State;;;Port Moresby;675;PG;PNG;598;.pg
+Paraguay;Republic of Paraguay;Independent State;;;Asuncion;595;PY;PRY;600;.py
+Peru;Republic of Peru;Independent State;;;Lima;51;PE;PER;604;.pe
+Philippines;Republic of the Philippines;Independent State;;;Manila;63;PH;PHL;608;.ph
+Poland;Republic of Poland;Independent State;;;Warsaw;48;PL;POL;616;.pl
+Portugal;Portuguese Republic;Independent State;;;Lisbon;351;PT;PRT;620;.pt
+Qatar;State of Qatar;Independent State;;;Doha;974;QA;QAT;634;.qa
+Romania;;Independent State;;;Bucharest;40;RO;ROU;642;.ro
+Russia;Russian Federation;Independent State;;;Moscow;7;RU;RUS;643;.ru and .su
+Rwanda;Republic of Rwanda;Independent State;;;Kigali;250;RW;RWA;646;.rw
+Saint Kitts and Nevis;Federation of Saint Kitts and Nevis;Independent State;;;Basseterre;-868;KN;KNA;659;.kn
+Saint Lucia;;Independent State;;;Castries;-757;LC;LCA;662;.lc
+Saint Vincent and the Grenadines;;Independent State;;;Kingstown;-783;VC;VCT;670;.vc
+Samoa;Independent State of Samoa;Independent State;;;Apia;685;WS;WSM;882;.ws
+San Marino;Republic of San Marino;Independent State;;;San Marino;378;SM;SMR;674;.sm
+Sao Tome and Principe;Democratic Republic of Sao Tome and Principe;Independent State;;;Sao Tome;239;ST;STP;678;.st
+Saudi Arabia;Kingdom of Saudi Arabia;Independent State;;;Riyadh;966;SA;SAU;682;.sa
+Senegal;Republic of Senegal;Independent State;;;Dakar;221;SN;SEN;686;.sn
+Serbia;Republic of Serbia;Independent State;;;Belgrade;381;RS;SRB;688;.rs and .yu
+Seychelles;Republic of Seychelles;Independent State;;;Victoria;248;SC;SYC;690;.sc
+Sierra Leone;Republic of Sierra Leone;Independent State;;;Freetown;232;SL;SLE;694;.sl
+Singapore;Republic of Singapore;Independent State;;;Singapore;65;SG;SGP;702;.sg
+Slovakia;Slovak Republic;Independent State;;;Bratislava;421;SK;SVK;703;.sk
+Slovenia;Republic of Slovenia;Independent State;;;Ljubljana;386;SI;SVN;705;.si
+Solomon Islands;;Independent State;;;Honiara;677;SB;SLB;90;.sb
+Somalia;;Independent State;;;Mogadishu;252;SO;SOM;706;.so
+South Africa;Republic of South Africa;Independent State;;;Pretoria (administrative), Cape Town (legislative), and Bloemfontein (judical);27;ZA;ZAF;710;.za
+Spain;Kingdom of Spain;Independent State;;;Madrid;34;ES;ESP;724;.es
+Sri Lanka;Democratic Socialist Republic of Sri Lanka;Independent State;;;Colombo (administrative/judical) and Sri Jayewardenepura Kotte (legislative);94;LK;LKA;144;.lk
+Sudan;Republic of the Sudan;Independent State;;;Khartoum;249;SD;SDN;736;.sd
+Suriname;Republic of Suriname;Independent State;;;Paramaribo;597;SR;SUR;740;.sr
+Swaziland;Kingdom of Swaziland;Independent State;;;Mbabane (administrative) and Lobamba (legislative);268;SZ;SWZ;748;.sz
+Sweden;Kingdom of Sweden;Independent State;;;Stockholm;46;SE;SWE;752;.se
+Switzerland;Swiss Confederation;Independent State;;;Bern;41;CH;CHE;756;.ch
+Syria;Syrian Arab Republic;Independent State;;;Damascus;963;SY;SYR;760;.sy
+Tajikistan;Republic of Tajikistan;Independent State;;;Dushanbe;992;TJ;TJK;762;.tj
+Tanzania;United Republic of Tanzania;Independent State;;;Dar es Salaam (administrative/judical) and Dodoma (legislative);255;TZ;TZA;834;.tz
+Thailand;Kingdom of Thailand;Independent State;;;Bangkok;66;TH;THA;764;.th
+Timor-Leste (East Timor);Democratic Republic of Timor-Leste;Independent State;;;Dili;670;TL;TLS;626;.tp and .tl
+Togo;Togolese Republic;Independent State;;;Lome;228;TG;TGO;768;.tg
+Tonga;Kingdom of Tonga;Independent State;;;Nuku'alofa;676;TO;TON;776;.to
+Trinidad and Tobago;Republic of Trinidad and Tobago;Independent State;;;Port-of-Spain;-867;TT;TTO;780;.tt
+Tunisia;Tunisian Republic;Independent State;;;Tunis;216;TN;TUN;788;.tn
+Turkey;Republic of Turkey;Independent State;;;Ankara;90;TR;TUR;792;.tr
+Turkmenistan;;Independent State;;;Ashgabat;993;TM;TKM;795;.tm
+Tuvalu;;Independent State;;;Funafuti;688;TV;TUV;798;.tv
+Uganda;Republic of Uganda;Independent State;;;Kampala;256;UG;UGA;800;.ug
+Ukraine;;Independent State;;;Kiev;380;UA;UKR;804;.ua
+United Arab Emirates;United Arab Emirates;Independent State;;;Abu Dhabi;971;AE;ARE;784;.ae
+United Kingdom;United Kingdom of Great Britain and Northern Ireland;Independent State;;;London;44;GB;GBR;826;.uk
+United States;United States of America;Independent State;;;Washington;1;US;USA;840;.us
+Uruguay;Oriental Republic of Uruguay;Independent State;;;Montevideo;598;UY;URY;858;.uy
+Uzbekistan;Republic of Uzbekistan;Independent State;;;Tashkent;998;UZ;UZB;860;.uz
+Vanuatu;Republic of Vanuatu;Independent State;;;Port-Vila;678;VU;VUT;548;.vu
+Vatican City;State of the Vatican City;Independent State;;;Vatican City;379;VA;VAT;336;.va
+Venezuela;Bolivarian Republic of Venezuela;Independent State;;;Caracas;58;VE;VEN;862;.ve
+Vietnam;Socialist Republic of Vietnam;Independent State;;;Hanoi;84;VN;VNM;704;.vn
+Yemen;Republic of Yemen;Independent State;;;Sanaa;967;YE;YEM;887;.ye
+Zambia;Republic of Zambia;Independent State;;;Lusaka;260;ZM;ZMB;894;.zm
+Zimbabwe;Republic of Zimbabwe;Independent State;;;Harare;263;ZW;ZWE;716;.zw
+Abkhazia;Republic of Abkhazia;Proto Independent State;;;Sokhumi;995;GE;GEO;268;.ge
+China, Republic of (Taiwan);Republic of China;Proto Independent State;;;Taipei;886;TW;TWN;158;.tw
+Nagorno-Karabakh;Nagorno-Karabakh Republic;Proto Independent State;;;Stepanakert;277;AZ;AZE;31;.az
+Northern Cyprus;Turkish Republic of Northern Cyprus;Proto Independent State;;;Nicosia;-302;CY;CYP;196;.nc.tr
+Pridnestrovie (Transnistria);Pridnestrovian Moldavian Republic;Proto Independent State;;;Tiraspol;-160;MD;MDA;498;.md
+Somaliland;Republic of Somaliland;Proto Independent State;;;Hargeisa;252;SO;SOM;706;.so
+South Ossetia;Republic of South Ossetia;Proto Independent State;;;Tskhinvali;995;GE;GEO;268;.ge
+Ashmore and Cartier Islands;Territory of Ashmore and Cartier Islands;Dependency;External Territory;Australia;;;AU;AUS;36;.au
+Christmas Island;Territory of Christmas Island;Dependency;External Territory;Australia;The Settlement (Flying Fish Cove);61;CX;CXR;162;.cx
+Cocos (Keeling) Islands;Territory of Cocos (Keeling) Islands;Dependency;External Territory;Australia;West Island;61;CC;CCK;166;.cc
+Coral Sea Islands;Coral Sea Islands Territory;Dependency;External Territory;Australia;;;AU;AUS;36;.au
+Heard Island and McDonald Islands;Territory of Heard Island and McDonald Islands;Dependency;External Territory;Australia;;;HM;HMD;334;.hm
+Norfolk Island;Territory of Norfolk Island;Dependency;External Territory;Australia;Kingston;672;NF;NFK;574;.nf
+New Caledonia;;Dependency;Sui generis Collectivity;France;Noumea;687;NC;NCL;540;.nc
+French Polynesia;Overseas Country of French Polynesia;Dependency;Overseas Collectivity;France;Papeete;689;PF;PYF;258;.pf
+Mayotte;Departmental Collectivity of Mayotte;Dependency;Overseas Collectivity;France;Mamoudzou;262;YT;MYT;175;.yt
+Saint Barthelemy;Collectivity of Saint Barthelemy;Dependency;Overseas Collectivity;France;Gustavia;590;GP;GLP;312;.gp
+Saint Martin;Collectivity of Saint Martin;Dependency;Overseas Collectivity;France;Marigot;590;GP;GLP;312;.gp
+Saint Pierre and Miquelon;Territorial Collectivity of Saint Pierre and Miquelon;Dependency;Overseas Collectivity;France;Saint-Pierre;508;PM;SPM;666;.pm
+Wallis and Futuna;Collectivity of the Wallis and Futuna Islands;Dependency;Overseas Collectivity;France;Mata'utu;681;WF;WLF;876;.wf
+French Southern and Antarctic Lands;Territory of the French Southern and Antarctic Lands;Dependency;Overseas Territory;France;Martin-de-Viviäs;;TF;ATF;260;.tf
+Clipperton Island;;Dependency;Possession;France;;;PF;PYF;258;.pf
+Bouvet Island;;Dependency;Territory;Norway;;;BV;BVT;74;.bv
+Cook Islands;;Dependency;Self-Governing in Free Association;New Zealand;Avarua;682;CK;COK;184;.ck
+Niue;;Dependency;Self-Governing in Free Association;New Zealand;Alofi;683;NU;NIU;570;.nu
+Tokelau;;Dependency;Territory;New Zealand;;690;TK;TKL;772;.tk
+Guernsey;Bailiwick of Guernsey;Dependency;Crown Dependency;United Kingdom;Saint Peter Port;44;GG;GGY;831;.gg
+Isle of Man;;Dependency;Crown Dependency;United Kingdom;Douglas;44;IM;IMN;833;.im
+Jersey;Bailiwick of Jersey;Dependency;Crown Dependency;United Kingdom;Saint Helier;44;JE;JEY;832;.je
+Anguilla;;Dependency;Overseas Territory;United Kingdom;The Valley;-263;AI;AIA;660;.ai
+Bermuda;;Dependency;Overseas Territory;United Kingdom;Hamilton;-440;BM;BMU;60;.bm
+British Indian Ocean Territory;;Dependency;Overseas Territory;United Kingdom;;246;IO;IOT;86;.io
+British Sovereign Base Areas;;Dependency;Overseas Territory;United Kingdom;Episkopi;357;;;;
+British Virgin Islands;;Dependency;Overseas Territory;United Kingdom;Road Town;-283;VG;VGB;92;.vg
+Cayman Islands;;Dependency;Overseas Territory;United Kingdom;George Town;-344;KY;CYM;136;.ky
+Falkland Islands (Islas Malvinas);;Dependency;Overseas Territory;United Kingdom;Stanley;500;FK;FLK;238;.fk
+Gibraltar;;Dependency;Overseas Territory;United Kingdom;Gibraltar;350;GI;GIB;292;.gi
+Montserrat;;Dependency;Overseas Territory;United Kingdom;Plymouth;-663;MS;MSR;500;.ms
+Pitcairn Islands;;Dependency;Overseas Territory;United Kingdom;Adamstown;;PN;PCN;612;.pn
+Saint Helena;;Dependency;Overseas Territory;United Kingdom;Jamestown;290;SH;SHN;654;.sh
+South Georgia & South Sandwich Islands;;Dependency;Overseas Territory;United Kingdom;;;GS;SGS;239;.gs
+Turks and Caicos Islands;;Dependency;Overseas Territory;United Kingdom;Grand Turk;-648;TC;TCA;796;.tc
+Northern Mariana Islands;Commonwealth of The Northern Mariana Islands;Dependency;Commonwealth;United States;Saipan;-669;MP;MNP;580;.mp
+Puerto Rico;Commonwealth of Puerto Rico;Dependency;Commonwealth;United States;San Juan;+1-787 and 1-939;PR;PRI;630;.pr
+American Samoa;Territory of American Samoa;Dependency;Territory;United States;Pago Pago;-683;AS;ASM;16;.as
+Baker Island;;Dependency;Territory;United States;;;UM;UMI;581;
+Guam;Territory of Guam;Dependency;Territory;United States;Hagatna;-670;GU;GUM;316;.gu
+Howland Island;;Dependency;Territory;United States;;;UM;UMI;581;
+Jarvis Island;;Dependency;Territory;United States;;;UM;UMI;581;
+Johnston Atoll;;Dependency;Territory;United States;;;UM;UMI;581;
+Kingman Reef;;Dependency;Territory;United States;;;UM;UMI;581;
+Midway Islands;;Dependency;Territory;United States;;;UM;UMI;581;
+Navassa Island;;Dependency;Territory;United States;;;UM;UMI;581;
+Palmyra Atoll;;Dependency;Territory;United States;;;UM;UMI;581;
+U.S. Virgin Islands;United States Virgin Islands;Dependency;Territory;United States;Charlotte Amalie;-339;VI;VIR;850;.vi
+Wake Island;;Dependency;Territory;United States;;;UM;UMI;850;
+Hong Kong;Hong Kong Special Administrative Region;Proto Dependency;Special Administrative Region;China, People's Republic of;;852;HK;HKG;344;.hk
+Macau;Macau Special Administrative Region;Proto Dependency;Special Administrative Region;China, People's Republic of;Macau;853;MO;MAC;446;.mo
+Faroe Islands;;Proto Dependency;;Denmark;Torshavn;298;FO;FRO;234;.fo
+Greenland;;Proto Dependency;;Denmark;Nuuk (Godthab);299;GL;GRL;304;.gl
+French Guiana;Overseas Region of Guiana;Proto Dependency;Overseas Region;France;Cayenne;594;GF;GUF;254;.gf
+Guadeloupe;Overseas Region of Guadeloupe;Proto Dependency;Overseas Region;France;Basse-Terre;590;GP;GLP;312;.gp
+Martinique;Overseas Region of Martinique;Proto Dependency;Overseas Region;France;Fort-de-France;596;MQ;MTQ;474;.mq
+Reunion;Overseas Region of Reunion;Proto Dependency;Overseas Region;France;Saint-Denis;262;RE;REU;638;.re
+Aland;;Proto Dependency;;Finland;Mariehamn;340;AX;ALA;248;.ax
+Aruba;;Proto Dependency;;Netherlands;Oranjestad;297;AW;ABW;533;.aw
+Netherlands Antilles;;Proto Dependency;;Netherlands;Willemstad;599;AN;ANT;530;.an
+Svalbard;;Proto Dependency;;Norway;Longyearbyen;47;SJ;SJM;744;.sj
+Ascension;;Proto Dependency;Dependency of Saint Helena;United Kingdom;Georgetown;247;AC;ASC;;.ac
+Tristan da Cunha;;Proto Dependency;Dependency of Saint Helena;United Kingdom;Edinburgh;290;TA;TAA;;
+Australian Antarctic Territory;;Antarctic Territory;External Territory;Australia;;;AQ;ATA;10;.aq
+Ross Dependency;;Antarctic Territory;Territory;New Zealand;;;AQ;ATA;10;.aq
+Peter I Island;;Antarctic Territory;Territory;Norway;;;AQ;ATA;10;.aq
+Queen Maud Land;;Antarctic Territory;Territory;Norway;;;AQ;ATA;10;.aq
+British Antarctic Territory;;Antarctic Territory;Overseas Territory;United Kingdom;;;AQ;ATA;10;.aq
